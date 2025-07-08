@@ -40,7 +40,7 @@ div{
 .navbar{
     background-color: pink;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 a{
     text-decoration: none;
