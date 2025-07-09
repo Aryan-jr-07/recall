@@ -93,7 +93,7 @@ div{
     }
 } */
 
-@media(width<300px){
+@media(max-width:300px){
     div{
         background-color: green;;
     }
@@ -108,8 +108,8 @@ div{
         background-color: red;
     }
 }
-@media(width>600px){
+@media(min-width:600px){
     div{
         background-color: blue;
-    }
+    } 
 }
