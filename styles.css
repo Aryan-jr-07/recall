@@ -178,16 +178,23 @@ div{
     background-color: red;
 } */
 
-.loader{
+/* .loader{
     height: 500px;
     width: 500px;
     background-color: #3D74B6;
     border-radius: 50%;
     border: 20px solid #EAC8A6;
     border-top: 20px solid #DC3C22;
+    animation: spinAnimate 1s ease-in 0s infinite normal;
 }
-
-
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
 
 
 
