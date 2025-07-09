@@ -133,24 +133,24 @@ div:active{
 } */
 
 
-div{
-    /* height: 200px;
+/* div{
+    height: 200px;
     width: 200px;
     background-color: orange;
     border: 2px solid black;
     transition: transform 2s ease 1s ;
     position: absolute;
     top:100px;
-    left: 100px; */
-    /* animation-name: colorAnimate;
+    left: 100px;
+    animation-name: colorAnimate;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-direction:normal; */
+    animation-direction:normal;
 
-    /* animation: colorAnimate 2s linear 3s infinite normal; */
-}
+    animation: colorAnimate 2s linear 3s infinite normal;
+} */
 /* @keyframes colorAnimate{
     0%{
         left:0px;
