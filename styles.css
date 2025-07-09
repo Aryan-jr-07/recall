@@ -44,12 +44,11 @@ div{
 }
 a{
     text-decoration: none;
-    color: black;
-    background-color: yellow;
+    color: white;
 }
 li{
     list-style-type: none;
-    background-color: forestgreen;
+    background-color: red;
     display: inline;
 }
 
