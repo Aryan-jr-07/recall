@@ -134,23 +134,24 @@ div:active{
 
 
 div{
-    height: 200px;
+    /* height: 200px;
     width: 200px;
     background-color: orange;
     border: 2px solid black;
-    /* transition: transform 2s ease 1s ; */
+    transition: transform 2s ease 1s ;
     position: absolute;
     top:100px;
-    left: 100px;
+    left: 100px; */
     /* animation-name: colorAnimate;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction:normal; */
-    animation: colorAnimate 2s linear 3s infinite normal;
+
+    /* animation: colorAnimate 2s linear 3s infinite normal; */
 }
-@keyframes colorAnimate{
+/* @keyframes colorAnimate{
     0%{
         left:0px;
         background-color: orange;
@@ -163,21 +164,28 @@ div{
         left: 300px;
         background-color: green;;
     }
-}
+} */
 
-
-
-div:hover{
-    /* transform: rotate(30deg); */
-    /* transform: scale3d(3,3,3); */
-    /* transform: translateY(200px); */
-    /* transform: skew(45deg); */
-}
+/* div:hover{
+    transform: rotate(30deg); 
+    transform: scale3d(3,3,3);
+    transform: translateY(200px);
+    transform: skew(45deg);
+} */
 
 /* div:active{
     transform: scale(2);
     background-color: red;
 } */
+
+.loader{
+    height: 500px;
+    width: 500px;
+    background-color: #3D74B6;
+    border-radius: 50%;
+    border: 20px solid #EAC8A6;
+    border-top: 20px solid #DC3C22;
+}
 
 
 
